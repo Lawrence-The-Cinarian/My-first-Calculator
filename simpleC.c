@@ -13,7 +13,12 @@ int simpleC() {
   printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \\, *)\n");
   printf("Enter number: ");
   scanf("%d", &operand);
-  if(operand == 1) {
+
+    if(operand <= 0 && operand => 3) {
+    printf("Invalid Input\n");
+    }
+    
+  else if(operand == 1) {
    printf("Step 1: Enter Number For Calculation\n");
    printf("Step 2: Enter Number in the options for calculations\n");
    printf("(1) Square Root\n");
@@ -106,14 +111,9 @@ int simpleC() {
     else {
       printf("Program Terminated");
       return choice;
+      }
     }
-  }
   }
     while(operand != 0);
-  return 0;
-    if(operand < 0 && operand > 2) {
-    printf("Invalid Input\n");
-    return 1;
-    }
   return 0;
 }
