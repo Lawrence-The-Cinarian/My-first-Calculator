@@ -15,7 +15,7 @@ int simpleC() {
   scanf("%d", &operand);
   if(operand == 1) {
    printf("Step 1: Enter Number For Calculation\n");
-   printf("Step 2: Enter number in the options for calculations\n");
+   printf("Step 2: Enter Number in the options for calculations\n");
    printf("(1) Square Root\n");
    printf("(2) Cubic Root\n");
    printf("(3) Square\n");
@@ -54,6 +54,7 @@ int simpleC() {
         default: 
         printf("Invalid Input\n");
       }
+      printf("Ans: %.2f\n", answer);
     }
     else {
       printf("Program Terminated\n");
@@ -61,7 +62,28 @@ int simpleC() {
   }
   else if(operand == 2) {
     printf("Step 1: Enter Numbers for Calculations\n");
-    printf("Step 2: Entrr
+    printf("Step 2: Enter Number in the options for calculations\n");
+    printf("(1) Addition\n");
+    printf("(2) Subtraction\n");
+    printf("(3) Multiplication\n");
+    printf("(4) Division\n");
+    printf("Enter First Number: ");
+      scanf("%lf", &fnum);
+    printf("Enter Second Number: ");
+      scanf("%lf", &snum);
+    printf("Enter Number for Operation: ");
+      scanf("%d", &choice);
+    if(choice >=1 && choice <= 4) {
+      switch(choice) {
+        case 1:
+        answer = fnum + snum;
+        
+      }
+    }
+    else {
+      printf("Program Terminated");
+      return choice;
+    }
   }
     
     else(operand < 0 && operand > 2) {
