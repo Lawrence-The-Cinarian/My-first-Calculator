@@ -9,7 +9,10 @@ int littleP() {
   scanf("%19s", password);
   if(strcmp(password, "Lawrex+17") == 0) {
     printf("Access Granted........\n");
-    printf("Cinari Labs Display **************\n");
+    printf("***** * **   * ***** *****  *\n");
+    printf("*.    * * *  * *   * ****** *\n");
+    printf("*.    * *  * * ***** *****  *\n");
+    printf("***** * *   ** *   * *    * *\n");
   }
   else {
     printf("Access denied..........\n");
