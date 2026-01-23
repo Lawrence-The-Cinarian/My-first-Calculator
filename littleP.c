@@ -4,10 +4,10 @@
 /*This is for the package learning*/
 
 int littleP() {
-  char password [7];
+  char password [9];
   printf("Enter Password: ");
-  scanf("%6s", password);
-  if(strcmp(password, 'Lawrex+17') == 0) {
+  scanf("%8s", password);
+  if(strcmp(password, "Lawrex+17") == 0) {
     printf("Access Granted........\n");
       printf("Cinari Labs Display **************\n");
     return 1;
