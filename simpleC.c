@@ -108,13 +108,12 @@ int simpleC() {
       return choice;
     }
   }
-    
-    else if(operand < 0 && operand > 2) {
+  }
+    while(operand != 0);
+  return 0;
+    if(operand < 0 && operand > 2) {
     printf("Invalid Input\n");
     return 1;
     }
-    
-    }
-    while(operand != 0);
   return 0;
 }
