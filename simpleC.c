@@ -77,8 +77,30 @@ int simpleC() {
       switch(choice) {
         case 1:
         answer = fnum + snum;
-        
+        break;
+
+        case 2:
+        answer = fnum - snum;
+        break;
+
+        case 3:
+        answer = fnum * snum;
+        break;
+
+        case 4:
+        if(snum == 0) {
+          printf("Mathematical Error");
+          return choice;
+        }
+          answer = fnum / snum;
+        break;
+
+        default:
+          printf("Invalid Input\n");
+          return choice;
       }
+        printf("Ans: %.2f\n", answer);
+      
     }
     else {
       printf("Program Terminated");
