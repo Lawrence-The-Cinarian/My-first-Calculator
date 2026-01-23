@@ -9,7 +9,7 @@ int simpleC() {
   double snum; //for representation of second number
   int choice;//for choices during switch/case creation
   do{
-  printf("Welcome To Cinari Lab's Calculator\n")
+  printf("Welcome To Cinari Lab's Calculator\n");
   printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \, *)\n");
   printf("Enter number: ");
   scanf("%d", &operand);
@@ -59,6 +59,7 @@ int simpleC() {
     else {
       printf("Program Terminated\n");
       return choice;
+      }
   }
   else if(operand == 2) {
     printf("Step 1: Enter Numbers for Calculations\n");
