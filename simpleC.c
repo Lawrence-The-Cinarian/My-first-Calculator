@@ -9,28 +9,60 @@ int simpleC() {
   double snum; //for representation of second number
   int choice;//for choices during switch/case creation
   do{
-    printf("Welcome To Cinari9 Lab's Calculator\n")
-printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \, *)\n");
+  printf("Welcome To Cinari Lab's Calculator\n")
+  printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \, *)\n");
   printf("Enter number: ");
   scanf("%d", &operand);
   if(operand == 1) {
-    printf("Step 1: Enter Number For Calculation\n");
-    printf("Step 2: Enter number in the options for calculations\n");
-    printf("\n");
-   printf("\n");
-   printf("\n");
-   printf("\n");
+   printf("Step 1: Enter Number For Calculation\n");
+   printf("Step 2: Enter number in the options for calculations\n");
+   printf("(1) Square Root\n");
+   printf("(2) Cubic Root\n");
+   printf("(3) Square\n");
+   printf("(4) Cubic\n");
    printf("\n");
    printf("Enter Number for Calculation: ");
-    scanf("%lf", &fnum);  
+   scanf("%lf", &fnum);  
    printf("Enter Number from the options above: ");
     scanf("%d", &choice);
     if(choice >= 1 && choice <= 4) {
-      
+      switch(choice) {
+        case 1:
+          if(fnum < 0) {
+        printf("Invalid Calculation\n");
+        return choice;
+          }
+        answer = sqrt(fnum);
+        break;
+
+        case 2:
+          if(fnum < 0) {
+        printf("Invalid Calculation\n");
+        return choice;
+          }
+         answer = cbrt(fnum);
+        break;
+
+        case 3:
+        answer = pow(fnum, 2);
+        break;
+
+        case 4:
+        answer = pow(fnum, 3);
+        break;
+
+        default: 
+        printf("Invalid Input\n");
+      }
     }
-    else printf("Program Terminated");
+    else {
+      printf("Program Terminated\n");
+      return choice;
   }
-  else if(operand == 2) {}
+  else if(operand == 2) {
+    printf("Step 1: Enter Numbers for Calculations\n");
+    printf("Step 2: Entrr
+  }
     
     else(operand < 0 && operand > 2) {
     printf("Invalid Input\n");
