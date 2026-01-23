@@ -14,9 +14,9 @@ int simpleC() {
   printf("Enter number: ");
   scanf("%d", &operand);
 
-    if(operand <= 0 && operand >= 3) {
-    printf("Invalid Input\n");
-    }
+  if(operand <= 0 || operand >= 3) {
+   printf("Invalid Input\n");
+   }
     
   else if(operand == 1) {
    printf("Step 1: Enter Number For Calculation\n");
