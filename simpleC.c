@@ -10,7 +10,7 @@ int simpleC() {
   int choice;//for choices during switch/case creation
   do{
   printf("Welcome To Cinari Lab's Calculator\n");
-  printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \, *)\n");
+  printf("Enter 1 for using an Operand for square roots, cube roots, cubes and squares, Enter 2 for using two numbers for basic operations(+, -, \\, *)\n");
   printf("Enter number: ");
   scanf("%d", &operand);
   if(operand == 1) {
@@ -109,7 +109,7 @@ int simpleC() {
     }
   }
     
-    else(operand < 0 && operand > 2) {
+    else if(operand < 0 && operand > 2) {
     printf("Invalid Input\n");
     return 1;
     }
