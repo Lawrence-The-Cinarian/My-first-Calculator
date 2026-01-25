@@ -9,7 +9,7 @@ int littleP() {
   printf("Enter Password: ");
   scanf("%19s", password);
   printf("******************************************************\n");
-  printf("\n")
+  printf("\n");
   if(strcmp(password, "Lawxey8") == 0) {
  printf("******************************************************\n");
  printf("*                  Access Granted                    *\n");
