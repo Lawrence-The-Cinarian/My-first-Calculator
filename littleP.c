@@ -29,6 +29,7 @@ int littleP() {
    printf("*                   Access Denied                    *\n");
    printf("******************************************************\n");
    printf("\n");
+   fclose(littleP.c);
     return 1;
   }
   return 0;
