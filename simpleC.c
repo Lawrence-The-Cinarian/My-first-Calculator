@@ -8,14 +8,17 @@ int simpleC() {
   double fnum; //for representation of first number
   double snum; //for representation of second number
   int choice;//for choices during switch/case creation
-  do{
+  
+  /*This is to loop the program so don't you run it again, to cancel use CTRL+C*/
+  
+  do{ 
   printf("╔════════════════════════════════════════════════════╗\n");
   printf("║         Welcome To Cinari Lab's Calculator         ║\n");
   printf("╚════════════════════════════════════════════════════╝\n");
   printf("\n");
   printf("╔════════════════════════════════════════════════════╗\n");
   printf("║Use 1 for using a NO. for square/roots, cubes/square║\n");
-  printf("║Use 2 for using two NOs for operations(+, -, \\, *) ║\n");
+  printf("║Use 2 for using two NOs for Basic operations        ║\n");
   printf("║                 Enter number: ");
   scanf("%d", &operand);
   printf("╚════════════════════════════════════════════════════╝\n");
