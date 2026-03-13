@@ -5,9 +5,10 @@ Not Much Though still updating it
 You can check this out if you're like me 🤧😂
 Maybe study it 🤧
 
-https://drive.google.com/file/d/1j3Uek12a47SP81iD3DfeZnp7vXVxSqf-/view?usp=drivesdk
+![Screenshot_20260313-175347_1](https://github.com/user-attachments/assets/5dbd2a85-ca32-4c18-9af0-d3c3862c914a)
 
-
+![Screenshot_20260313-175102_1](https://github.com/user-attachments/assets/09f292af-facd-4b8b-b8b1-037636e3f48f)
 
 Still Performing updates though....
+
 I'll figure out how to make it so it doesn't accept letters
