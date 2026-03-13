@@ -5,7 +5,7 @@ Not Much Though still updating it
 You can check this out if you're like me 🤧😂
 Maybe study it 🤧
 
-<img width="549" height="752" alt="Screenshot from 2026-01-25 12-06-02" src="https://github.com/user-attachments/assets/336f058b-91da-40b5-b495-1a35d6450f1d" />
+https://github.com/Lawrence-The-Cinarian/My-first-Calculator/blob/main/Image/Screenshot_20260313-175102_1.png
 
 
 <img width="548" height="754" alt="Screenshot from 2026-01-25 12-04-52" src="https://github.com/user-attachments/assets/6dc8c6e0-948f-400a-b33d-4797119c3efb" />
