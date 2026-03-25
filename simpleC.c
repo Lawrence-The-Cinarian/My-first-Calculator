@@ -1,7 +1,7 @@
 #include "Calculator_Brain/main.h"
 #include <stdio.h>
 #include <math.h>
-
+#include "mathfunc.h"
 int simpleC() {
   int operand;
   double answer; //for answers to the inputs
@@ -128,15 +128,15 @@ int simpleC() {
     if(choice >=1 && choice <= 4) {
       switch(choice) {
         case 1:
-        answer = fnum + snum;
+        answer = add(fnum, snum);
         break;
 
         case 2:
-        answer = fnum - snum;
+        answer = sub(fnum, snum);
         break;
 
         case 3:
-        answer = fnum * snum;
+        answer = mul(fnum, snum);
         break;
 
         case 4:
@@ -147,7 +147,7 @@ int simpleC() {
           printf("\n");
           return choice;
         }
-          answer = fnum / snum;
+          answer = div(fnum, snum);
         break;
 
         default:
