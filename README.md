@@ -12,3 +12,10 @@ Maybe study it 🤧
 Still Performing updates though....
 
 I'll figure out how to make it so it doesn't accept letters
+
+# New Work Done 
+# 24th March 2026
+I implemented mathfunc.c and mathfunc.h for functions to be allowed to be called 
+
+When Compiling we use this
+``gcc Calculator_Brain/main.c simpleC.c littleP.c mathfunc``
