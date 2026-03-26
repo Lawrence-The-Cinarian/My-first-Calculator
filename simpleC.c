@@ -8,10 +8,10 @@ int simpleC() {
   double fnum; //for representation of first number
   double snum; //for representation of second number
   int choice;//for choices during switch/case creation
-  
+
   /*This is to loop the program so don't you run it again, to cancel use CTRL+C*/
-  
-  do{ 
+
+  do{
   printf("╔════════════════════════════════════════════════════╗\n");
   printf("║         Welcome To Cinari Lab's Calculator         ║\n");
   printf("╚════════════════════════════════════════════════════╝\n");
@@ -28,7 +28,7 @@ int simpleC() {
    printf("║                   Invalid Input                    ║\n");
    printf("╚════════════════════════════════════════════════════╝\n");
    }
-    
+
   else if(operand == 1) {
    printf("╔════════════════════════════════════════════════════╗\n");
    printf("║Step 1: Enter NO. For Calculation                   ║\n");
@@ -74,14 +74,14 @@ int simpleC() {
         break;
 
         case 3:
-        answer = pow(fnum, 2);
+        answer = sqre(fnum);
         break;
 
         case 4:
-        answer = pow(fnum, 3);
+        answer = cube(fnum);
         break;
 
-        default: 
+        default:
         printf("╔════════════════════════════════════════════════════╗\n");
         printf("║                   Invalid Input                    ║\n");
         printf("╚════════════════════════════════════════════════════╝\n");
