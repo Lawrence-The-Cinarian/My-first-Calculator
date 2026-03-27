@@ -1,5 +1,13 @@
 #include "mathfunc.h"
 #include <math.h>
+/* add stands for addition
+   sub for subtraction
+   mul for multiplication
+   div for division
+   sqre for power square
+   cube for power cube
+   math.h(The Header) was added because of the pow() function used  
+*/
 double add(double a, double b) {
 return a+b;
 }
