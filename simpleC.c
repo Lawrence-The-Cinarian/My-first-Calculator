@@ -1,8 +1,9 @@
 #include "Calculator_Brain/main.h"
+#include "mathfunc.h"
 #include <stdio.h>
 #include <math.h>
-#include "mathfunc.h"
-int simpleC() {
+
+short simpleC() {
   short operand;
   double answer; //for answers to the inputs
   double fnum; //for representation of first number

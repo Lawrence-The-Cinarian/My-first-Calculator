@@ -3,7 +3,7 @@
 #include <string.h>
 /*This is for the package learning*/
 
-int littleP() {
+short littleP() {
   char password [20];
   printf("\t╔════════════════════════════════════════════════════╗\n");
   printf("\t║Enter Password: ");
